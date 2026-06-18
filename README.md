@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GeoTur
 
-## Getting Started
+GeoTur é uma plataforma web desenvolvida para o compartilhamento e gerenciamento de pontos turísticos. O sistema permite que usuários cadastrem locais de interesse, publiquem fotografias, realizem comentários e interajam com outros usuários por meio de um sistema de seguidores.
 
-First, run the development server:
+Além de funcionar como um guia colaborativo de pontos turísticos, a plataforma também atua como um álbum digital de recordações, permitindo o registro e compartilhamento de experiências de viagem.
+
+## Tecnologias Utilizadas
+
+### Frontend
+
+* React
+* Next.js
+* TypeScript
+* CSS
+
+### Backend
+
+* Node.js
+* Next.js API Routes
+
+### Banco de Dados
+
+* PostgreSQL
+* Prisma ORM
+
+### Bibliotecas Utilizadas
+
+* NextAuth (autenticação)
+* Nodemailer (envio de e-mails)
+* Bcrypt (criptografia de senhas)
+* Leaflet e React-Leaflet (mapas interativos)
+
+## Pré-requisitos
+
+Antes de executar o projeto, certifique-se de possuir instalado:
+
+* Node.js (versão 18 ou superior)
+* PostgreSQL
+* NPM ou Yarn
+
+Verifique as versões instaladas:
+
+```bash
+node -v
+npm -v
+```
+
+## Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/next-teste2.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd next-teste2
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+## Configuração do Banco de Dados
+
+Crie um banco de dados PostgreSQL e configure as variáveis de ambiente no arquivo `.env`:
+
+```env
+DATABASE_URL="postgresql://usuario:senha@localhost:5432/geotur"
+```
+
+Execute as migrações do Prisma:
+
+```bash
+npx prisma migrate deploy
+```
+
+Ou, durante o desenvolvimento:
+
+```bash
+npx prisma migrate dev
+```
+
+## Executando o Projeto
+
+Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A aplicação estará disponível em:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades
 
-## Learn More
+* Cadastro e autenticação de usuários
+* Recuperação de senha por e-mail
+* Cadastro de pontos turísticos
+* Upload de fotografias
+* Comentários em publicações
+* Sistema de seguidores
+* Feed de publicações
+* Exploração de conteúdos compartilhados
+* Visualização de pontos turísticos em mapa
+* Gerenciamento de perfil
 
-To learn more about Next.js, take a look at the following resources:
+## Estrutura Geral do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+app/
+├── api/
+├── cadastro/
+├── login/
+├── feed/
+├── explorar/
+├── pontos/
+├── resetar-senha/
+└── esqueci-senha/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+prisma/
+public/
+lib/
+```
 
-## Deploy on Vercel
+## Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Marcus Vinícius Silva Lobo Felipe
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Universidade Federal de São João del-Rei (UFSJ)
+
+Curso de Ciência da Computação
+
+## Licença
+
+Este projeto foi desenvolvido para fins acadêmicos como Trabalho de Conclusão de Curso (TCC) do Bacharelado em Ciência da Computação da UFSJ.
