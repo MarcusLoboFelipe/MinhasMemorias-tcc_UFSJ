@@ -50,13 +50,13 @@ npm -v
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/next-teste2.git
+git clone https://github.com/MarcusLoboFelipe/GeoTur-tcc_UFSJ.git
 ```
 
 Acesse a pasta do projeto:
 
 ```bash
-cd next-teste2
+cd GeoTur-tcc_UFSJ
 ```
 
 Instale as dependências:
