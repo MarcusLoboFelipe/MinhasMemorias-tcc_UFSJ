@@ -1,6 +1,6 @@
-# GeoTur
+# Minhas Memórias
 
-GeoTur é uma plataforma web desenvolvida para o compartilhamento e gerenciamento de pontos turísticos. O sistema permite que usuários cadastrem locais de interesse, publiquem fotografias, realizem comentários e interajam com outros usuários por meio de um sistema de seguidores.
+Minhas Memórias é uma plataforma web desenvolvida para o compartilhamento e gerenciamento de locais de recordação. O sistema permite que usuários cadastrem locais, publiquem fotografias, realizem comentários e interajam com outros usuários por meio de um sistema de seguidores.
 
 Além de funcionar como um guia colaborativo de pontos turísticos, a plataforma também atua como um álbum digital de recordações, permitindo o registro e compartilhamento de experiências de viagem.
 
@@ -50,13 +50,13 @@ npm -v
 Clone o repositório:
 
 ```bash
-git clone https://github.com/MarcusLoboFelipe/GeoTur-tcc_UFSJ.git
+git clone https://github.com/MarcusLoboFelipe/MinhasMemórias-tcc_UFSJ.git
 ```
 
 Acesse a pasta do projeto:
 
 ```bash
-cd GeoTur-tcc_UFSJ
+cd MinhasMemórias-tcc_UFSJ
 ```
 
 Instale as dependências:
@@ -70,7 +70,7 @@ npm install
 Crie um banco de dados PostgreSQL e configure as variáveis de ambiente no arquivo `.env`:
 
 ```env
-DATABASE_URL="postgresql://usuario:senha@localhost:5432/geotur"
+DATABASE_URL="postgresql://usuario:senha@localhost:5432/minhasmemorias"
 ```
 
 Execute as migrações do Prisma:
@@ -103,7 +103,7 @@ http://localhost:3000
 
 * Cadastro e autenticação de usuários
 * Recuperação de senha por e-mail
-* Cadastro de pontos turísticos
+* Cadastro de locais de recordação
 * Upload de fotografias
 * Comentários em publicações
 * Sistema de seguidores
