@@ -248,7 +248,7 @@ router.push(`/pontos/fotos/${pontoCriado.id}`);
     <div className="p-8 max-w-xl">
 
       <h1 className="text-xl font-bold mb-6">
-        Novo Ponto de Interesse
+        Novo Local de Recrodação
       </h1>
 
 
