@@ -236,7 +236,7 @@ export default function EditarPonto() {
 
   return (
     <div className="p-8 max-w-xl">
-      <h1 className="text-xl font-bold mb-6">Editar Ponto de Interesse</h1>
+      <h1 className="text-xl font-bold mb-6">Editar Local de recordação</h1>
 
       <label className="block mb-1 font-medium">Nome</label>
       <input
