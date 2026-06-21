@@ -23,7 +23,7 @@ export default function PontosTable({ pontos, onExcluir }: Props) {
   if (!pontos || pontos.length === 0) {
     return (
       <p className="text-center text-gray-500 py-6">
-        Nenhum ponto cadastrado
+        Nenhum local de recordação cadastrado
       </p>
     );
   }
@@ -130,11 +130,11 @@ export default function PontosTable({ pontos, onExcluir }: Props) {
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
           <div className="bg-white rounded shadow-lg p-6 w-96">
             <h2 className="text-lg font-semibold mb-2">
-              Excluir ponto
+              Excluir local
             </h2>
 
             <p className="mb-4">
-              Tem certeza que deseja excluir o ponto{" "}
+              Tem certeza que deseja excluir o local{" "}
               <strong>{confirmar.nome}</strong>?
             </p>
 
