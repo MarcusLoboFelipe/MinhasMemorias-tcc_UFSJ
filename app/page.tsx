@@ -46,11 +46,11 @@ export default function Home() {
       <div className="max-w-xl">
 
         <h1 className="text-5xl font-bold mb-6">
-          GeoTur
+          Minhas Memórias
         </h1>
 
         <p className="text-lg mb-4 text-gray-700">
-          Cadastre e visualize pontos turísticos com informações completas,
+          Cadastre e visualize locais de recordação com informações completas,
           incluindo localização, fotos e comentários.
         </p>
 
