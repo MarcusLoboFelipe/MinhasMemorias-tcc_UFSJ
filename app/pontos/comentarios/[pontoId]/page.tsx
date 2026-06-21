@@ -73,7 +73,7 @@ export default function ComentariosPage() {
         <div>
 
           <h1 className="text-2xl font-bold">
-            Comentários do Ponto
+            Comentários do Local
           </h1>
 
           {ponto && (
