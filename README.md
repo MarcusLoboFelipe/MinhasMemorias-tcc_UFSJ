@@ -56,7 +56,7 @@ git clone https://github.com/MarcusLoboFelipe/MinhasMemorias-tcc_UFSJ.git
 Acesse a pasta do projeto:
 
 ```bash
-cd MinhasMemórias-tcc_UFSJ
+cd MinhasMemorias-tcc_UFSJ
 ```
 
 Instale as dependências:
