@@ -41,7 +41,7 @@ export default function PontosPage() {
       <div className="sticky top-0 z-30 bg-white border-b">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <h1 className="text-2xl font-bold mb-4">
-            Pontos de Interesse
+            Locais de Recordação
           </h1>
 
           <div className="flex items-center justify-between gap-4">
@@ -69,7 +69,7 @@ export default function PontosPage() {
               href="/pontos/novo"
               className="bg-black text-white px-4 py-2 rounded whitespace-nowrap"
             >
-              Novo Ponto de Interesse
+              Novo Local de Interesse
             </Link>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function PontosPage() {
 
             {pontosFiltrados.length === 0 && filtro && (
               <p className="text-center text-gray-500 mt-6">
-                Nenhum ponto encontrado para{" "}
+                Nenhum local encontrado para{" "}
                 <strong>"{filtro}"</strong>
               </p>
             )}
