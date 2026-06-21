@@ -99,7 +99,7 @@ export default function FotosPage() {
         {fotos.length > 0 && (
 
           <>
-            {/* 🔥 GRID DE FOTOS */}
+            {/* GRID DE FOTOS */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 
               {fotos.map((foto) => (
@@ -148,7 +148,7 @@ export default function FotosPage() {
 
       </div>
 
-      {/* 🔥 MODAL DE EXCLUSÃO */}
+      {/* MODAL DE EXCLUSÃO */}
       {fotoParaExcluir && (
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
 
