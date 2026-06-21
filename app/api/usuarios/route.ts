@@ -36,14 +36,14 @@ if (!emailValido.test(body.email)) {
 
  await enviarEmail(
   body.email,
-  "Bem-vindo ao GeoTur",
+  "Bem-vindo as Minhas Memórias",
   `
     <div style="font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 20px;">
       
       <div style="max-width: 500px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         
         <h2 style="color: #111; margin-bottom: 10px;">
-          Bem-vindo ao GeoTur
+          Bem-vindo as Minhas Memórias
         </h2>
 
         <p style="margin: 0 0 15px 0;">
@@ -80,7 +80,7 @@ if (!emailValido.test(body.email)) {
         </p>
 
         <p style="font-size: 12px; color: #999; text-align: center; margin-top: 10px;">
-          © GeoTur
+          © Minhas Memórias - Todos os direitos reservados
         </p>
 
       </div>
