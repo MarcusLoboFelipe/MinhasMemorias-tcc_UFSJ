@@ -130,7 +130,7 @@ export default function FeedPage() {
       <div className="bg-black text-white flex justify-between items-center px-4 py-2">
         <div className="flex items-center gap-3">
           <button onClick={() => setMenuAberto(!menuAberto)}>☰</button>
-          <span>GeoTur</span>
+          <span>Minhas Memórias</span>
         </div>
 
         <div className="flex items-center gap-3 text-sm">
@@ -158,7 +158,7 @@ export default function FeedPage() {
               </div>
 
               <div onClick={() => router.push("/pontos")} className="cursor-pointer hover:text-blue-600">
-                📍 Pontos de Interesse
+                📍 Locais de Recordação
               </div>
 
               <div
@@ -192,7 +192,7 @@ export default function FeedPage() {
               className="flex items-center gap-2 bg-white text-black border border-gray-300 px-4 py-2 rounded-lg shadow-sm hover:bg-gray-100 hover:shadow-md transition-all duration-200 text-sm font-medium"
             >
               <Plus size={18} />
-            Cadastrar Ponto
+            Cadastrar Local
             </button>
           </div>
 
@@ -436,7 +436,7 @@ export default function FeedPage() {
       {pontoParaExcluir && (
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded shadow-lg w-[300px]">
-            <h2 className="font-bold mb-3">Excluir ponto de interesse</h2>
+            <h2 className="font-bold mb-3">Excluir local de recordação</h2>
             <p className="mb-4">Tem certeza?</p>
 
             <div className="flex justify-end gap-2">
