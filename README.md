@@ -50,7 +50,7 @@ npm -v
 Clone o repositório:
 
 ```bash
-git clone https://github.com/MarcusLoboFelipe/MinhasMemórias-tcc_UFSJ.git
+git clone https://github.com/MarcusLoboFelipe/MinhasMemorias-tcc_UFSJ.git
 ```
 
 Acesse a pasta do projeto:
@@ -111,24 +111,6 @@ http://localhost:3000
 * Exploração de conteúdos compartilhados
 * Visualização de pontos turísticos em mapa
 * Gerenciamento de perfil
-
-## Estrutura Geral do Projeto
-
-```text
-app/
-├── api/
-├── cadastro/
-├── login/
-├── feed/
-├── explorar/
-├── pontos/
-├── resetar-senha/
-└── esqueci-senha/
-
-prisma/
-public/
-lib/
-```
 
 ## Autor
 
